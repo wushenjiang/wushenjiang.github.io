@@ -3,79 +3,147 @@
     <div class="pf-wrap">
         <div class="pf-grid">
 
-        <div class="pf-grid-sizer"></div><!-- used for sizing -->
+            <div class="pf-grid-sizer"></div><!-- used for sizing -->
 
+            <!-- 项目1 -->
             <div class="pf-grid-item photography">
                 <div class="project">
                     <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/ibms.jpg' | prepend: site.baseurl }}" alt="">
+                        <img src="{{ '/styles/img/TDTreeHole.png' | prepend: site.baseurl }}" alt="">
                     </figure>
                     <div class="portfolio-caption text-center">
                         <div class="valign-table">
                             <div class="valign-cell">
-                                <h2 class="text-upper">智能楼宇管理系统</h2>
-                                <p>基于数据采集模型的智能楼宇管理系统，支持SNMP,Modbus,电总, OPC等协议。</p>
-                                <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">详情</a>
+                                <h2 class="text-upper">铁大树洞</h2>
+                                <p>基于Android的，专注于铁大同学的社区平台，</p>
+                                <!--                                <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">详情</a>-->
                             </div>
                         </div>
                     </div>
 
                 </div>
-                <div id="pf-popup-1" class="pf-popup clearfix">
-                    <div class="pf-popup-col1">
-                        <div class="pf-popup-media" style="background-image: url({{ '/styles/img/portfolio/ibms.jpg' | prepend: site.baseurl }}); background-repeat: no-repeat;background-size: cover;">
-                        </div>
-                    </div><!-- .pf-popup-col1 -->
-
-                    <div class="pf-popup-col2">
-                        <div class="pf-popup-info clear-mrg">
-                            <h2 class="text-upper">智能楼宇管理系统</h2>
-                            <p class="text-muted"><strong>design / development</strong></p>
-                            <dl class="dl-horizontal">
-                                <dt>Demo展示地址:</dt>
-                                <dd><a href="https://gitee.com/xiaodan_yu/resume.io">Demo</a></dd>
-                            </dl>
-                            <p>基于数据采集模型的智能楼宇管理系统，支持SNMP,Modbus,电总, OPC等协议。</p>
-                        </div><!-- .pf-popup-info -->
-
-                    </div><!-- .pf-popup-col2 -->
-                </div><!-- .pf-popup -->
             </div><!-- .pf-grid-item -->
-
+            <!-- 项目2 -->
             <div class="pf-grid-item design">
                 <div class="project">
                     <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/prj-02.jpg' | prepend: site.baseurl }}" alt="">
+                        <img src="{{ '/styles/img/blogSystem.jpg' | prepend: site.baseurl }}" alt="">
                     </figure>
 
                     <div class="portfolio-caption text-center">
                         <div class="valign-table">
                             <div class="valign-cell">
-                                <h2 class="text-upper">Jekyll 简历模板</h2>
-                                <p>基于Jekyll的简历模板，托管在码云。记得给个赞哦！</p>
-                                <a href="https://gitee.com/xiaodan_yu/resume.io" class="pf-btn-view btn btn-primary" target="_blank">详情</a>
+                                <h2 class="text-upper">个人博客系统</h2>
+                                <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
+                                <a href="#pf-popup-2" class="pf-btn-view btn btn-primary">详情</a>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div><!-- .pf-grid-item -->
+            </div>
+            <!-- .pf-grid-item -->
+            <div id="pf-popup-2" class="pf-popup clearfix">
+                <div class="pf-popup-col1">
+                    <div class="pf-popup-media"
+                         style="background-image: url({{ '/styles/img/blogSystem.jpg' | prepend: site.baseurl }}); background-repeat: no-repeat;background-size: cover;">
+                    </div>
+                </div><!-- .pf-popup-col1 -->
 
+                <div class="pf-popup-col2">
+                    <div class="pf-popup-info clear-mrg">
+                        <h2 class="text-upper">个人博客系统</h2>
+                        <p class="text-muted"><strong>设计 | 应用</strong></p>
+                        <dl class="dl-horizontal">
+                            <dt>展示地址:</dt>
+                            <dd><a href="http://www.wushenjiang.cn">博客地址</a></dd>
+                        </dl>
+                        <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
+                        <p>运用了较为新颖与亮眼的技术，打造了专属于个人的博客系统</p>
+                    </div><!-- .pf-popup-info -->
+
+                </div><!-- .pf-popup-col2 -->
+            </div><!-- .pf-popup -->
+
+            <!-- 项目3 -->
             <div class="pf-grid-item photography">
                 <div class="project">
                     <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/portfolio/ai.jpg' | prepend: site.baseurl }}" alt="">
+                        <img src="{{ '/styles/img/ximalaya.png' | prepend: site.baseurl }}" alt="">
                     </figure>
 
                     <div class="portfolio-caption text-center">
                         <div class="valign-table">
                             <div class="valign-cell">
-                                <h2 class="text-upper">股票预测模型</h2>
-                                <p>基于AI的股票预测模型</p>
+                                <h2 class="text-upper">喜马拉雅FM</h2>
+                                <p>基于喜马拉雅SDK的专属于个人的喜马拉雅APP</p>
+                                <a href="https://github.com/wushenjiang/XimalayaTest"
+                                   class="pf-btn-view btn btn-primary"
+                                   target="_blank">详情</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div><!-- .pf-grid-item -->
+            <!-- 项目4 -->
+            <div class="pf-grid-item photography">
+                <div class="project">
+                    <figure class="portfolio-figure">
+                        <img src="{{ '/styles/img/taobaoUnion.png' | prepend: site.baseurl }}" alt="">
+                    </figure>
+
+                    <div class="portfolio-caption text-center">
+                        <div class="valign-table">
+                            <div class="valign-cell">
+                                <h2 class="text-upper">领券联盟</h2>
+                                <p>基于淘宝API与Android的优惠券领取平台</p>
+                                <a href="https://github.com/wushenjiang/TaobaoUnion" class="pf-btn-view btn btn-primary"
+                                   target="_blank">详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 项目5 -->
+            <div class="pf-grid-item design">
+                <div class="project">
+                    <figure class="portfolio-figure">
+                        <img src="{{ '/styles/img/weather.jpg' | prepend: site.baseurl }}" alt="">
+                    </figure>
+
+                    <div class="portfolio-caption text-center">
+                        <div class="valign-table">
+                            <div class="valign-cell">
+                                <h2 class="text-upper">天气预报APP</h2>
+                                <p>基于Kotlin、Android、彩云天气API的天气预报APP</p>
+                                <a href="https://github.com/wushenjiang/LiugeWeather"
+                                   class="pf-btn-view btn btn-primary" target="_blank">详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 项目6 -->
+            <div class="pf-grid-item photography">
+                <div class="project">
+                    <figure class="portfolio-figure">
+                        <img src="{{ '/styles/img/leyou.png' | prepend: site.baseurl }}" alt="">
+                    </figure>
+
+                    <div class="portfolio-caption text-center">
+                        <div class="valign-table">
+                            <div class="valign-cell">
+                                <h2 class="text-upper">乐优商城</h2>
+                                <p>基于Spring、SpringCloud、通用Mapper等技术的微服务架构的商城系统</p>
+                                <p>具有给用户使用的门户，给店家使用的管理平台，以及提供数据的服务端。</p>
+                                <a href="https://github.com/wushenjiang/leyouProject"
+                                   class="pf-btn-view btn btn-primary"
+                                   target="_blank">详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
-</section><!-- .section -->
+</section>
+<!-- .section -->
