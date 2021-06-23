@@ -1,14 +1,14 @@
 # Site settings
-name: 董小姐
-location: 大连
-company: IBM
-position: Java开发工程师
-github: https://github.com/
+name: 刘梦鑫
+location: 石家庄
+company: 石家庄铁道大学
+position: 学生
+github: https://github.com/wushenjiang
 facebook: https://www.facebook.com/
-phone: 1580424XXXX
-email: xxxx@xxx.com
+phone: 15383119674
+email: 1098577802@qq.com
 
-baseurl: "/resume.io"
+baseurl: "/"
 
 permalink: /:year/:month/:day/:title/
 
