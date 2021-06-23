@@ -17,7 +17,6 @@
                             <div class="valign-cell">
                                 <h2 class="text-upper">铁大树洞</h2>
                                 <p>基于Android的，专注于铁大同学的社区平台，</p>
-
                             </div>
                         </div>
                     </div>
@@ -36,14 +35,15 @@
                             <div class="valign-cell">
                                 <h2 class="text-upper">个人博客系统</h2>
                                 <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
-                                <a href="#pf-popup-2" class="pf-btn-view btn btn-primary">详情</a>
+                                <a href="#pf-popup-2" class="pf-btn-view btn btn-primary"
+                                   onclick="document.getElementById('pf-popup-2').hidden=false">详情</a>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- .pf-grid-item -->
-            <div id="pf-popup-2" class="pf-popup clearfix">
+            <div id="pf-popup-2" class="pf-popup clearfix" hidden>
                 <div class="pf-popup-col1">
                     <div class="pf-popup-media"
                          style="background-image: url({{ '/styles/img/blogSystem.jpg' | prepend: site.baseurl }}); background-repeat: no-repeat;background-size: cover;">
@@ -104,25 +104,6 @@
                     </div>
                 </div>
             </div>
-            <!-- 项目5 -->
-            <div class="pf-grid-item design">
-                <div class="project">
-                    <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/weather.jpg' | prepend: site.baseurl }}" alt="">
-                    </figure>
-
-                    <div class="portfolio-caption text-center">
-                        <div class="valign-table">
-                            <div class="valign-cell">
-                                <h2 class="text-upper">天气预报APP</h2>
-                                <p>基于Kotlin、Android、彩云天气API的天气预报APP</p>
-                                <a href="https://github.com/wushenjiang/LiugeWeather"
-                                   class="pf-btn-view btn btn-primary" target="_blank">详情</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
             <!-- 项目6 -->
             <div class="pf-grid-item photography">
                 <div class="project">
@@ -139,6 +120,25 @@
                                 <a href="https://github.com/wushenjiang/leyouProject"
                                    class="pf-btn-view btn btn-primary"
                                    target="_blank">详情</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- 项目5 -->
+            <div class="pf-grid-item design">
+                <div class="project">
+                    <figure class="portfolio-figure">
+                        <img src="{{ '/styles/img/weather.jpg' | prepend: site.baseurl }}" alt="">
+                    </figure>
+
+                    <div class="portfolio-caption text-center">
+                        <div class="valign-table">
+                            <div class="valign-cell">
+                                <h2 class="text-upper">天气预报APP</h2>
+                                <p>基于Kotlin、Android、彩云天气API的天气预报APP</p>
+                                <a href="https://github.com/wushenjiang/LiugeWeather"
+                                   class="pf-btn-view btn btn-primary" target="_blank">详情</a>
                             </div>
                         </div>
                     </div>
