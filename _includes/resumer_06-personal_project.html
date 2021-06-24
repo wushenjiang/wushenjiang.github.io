@@ -35,35 +35,36 @@
                             <div class="valign-cell">
                                 <h2 class="text-upper">个人博客系统</h2>
                                 <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
-                                <a href="#pf-popup-2" class="pf-btn-view btn btn-primary">详情</a>
+                                <a href="#pf-popup-1" class="pf-btn-view btn btn-primary">详情</a>
                             </div>
                         </div>
                     </div>
                 </div>
+                <div id="pf-popup-1" class="pf-popup clearfix">
+                    <div class="pf-popup-col1">
+                        <div class="pf-popup-media"
+                             style="background-image: url({{ '/styles/img/blogSystem.jpg' | prepend: site.baseurl }});
+                         background-repeat: no-repeat;background-size: cover;">
+                        </div>
+                    </div><!-- .pf-popup-col1 -->
+
+                    <div class="pf-popup-col2">
+                        <div class="pf-popup-info clear-mrg">
+                            <h2 class="text-upper">个人博客系统</h2>
+                            <p class="text-muted"><strong>设计 | 应用</strong></p>
+                            <dl class="dl-horizontal">
+                                <dt>展示地址:</dt>
+                                <dd><a href="http://www.wushenjiang.cn">博客地址</a></dd>
+                            </dl>
+                            <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
+                            <p>运用了较为新颖与亮眼的技术，打造了专属于个人的博客系统</p>
+                        </div>
+                        <!-- .pf-popup-info -->
+
+                    </div><!-- .pf-popup-col2 -->
+                </div><!-- .pf-popup -->
             </div>
             <!-- .pf-grid-item -->
-            <div id="pf-popup-2" class="pf-popup clearfix" hidden>
-                <div class="pf-popup-col1">
-                    <div class="pf-popup-media"
-                         style="background-image: url({{ '/styles/img/blogSystem.jpg' | prepend: site.baseurl }}); background-repeat: no-repeat;background-size: cover;">
-                    </div>
-                </div><!-- .pf-popup-col1 -->
-
-                <div class="pf-popup-col2">
-                    <div class="pf-popup-info clear-mrg">
-                        <h2 class="text-upper">个人博客系统</h2>
-                        <p class="text-muted"><strong>设计 | 应用</strong></p>
-                        <dl class="dl-horizontal">
-                            <dt>展示地址:</dt>
-                            <dd><a href="http://www.wushenjiang.cn">博客地址</a></dd>
-                        </dl>
-                        <p>基于Spring、Vue、Nuxt等技术的前后端分离个人博客，分为门户、管理端和服务端。</p>
-                        <p>运用了较为新颖与亮眼的技术，打造了专属于个人的博客系统</p>
-                    </div>
-                    <!-- .pf-popup-info -->
-
-                </div><!-- .pf-popup-col2 -->
-            </div><!-- .pf-popup -->
 
             <!-- 项目3 -->
             <div class="pf-grid-item photography">
@@ -128,7 +129,8 @@
             <div class="pf-grid-item photography">
                 <div class="project">
                     <figure class="portfolio-figure" style="height:200px">
-                        <img src="{{ '/styles/img/leyou.png' | prepend: site.baseurl }}" alt="" style="margin-top:100px">
+                        <img src="{{ '/styles/img/leyou.png' | prepend: site.baseurl }}" alt=""
+                             style="margin-top:100px">
                     </figure>
 
                     <div class="portfolio-caption text-center">
@@ -149,7 +151,8 @@
             <div class="pf-grid-item photography">
                 <div class="project">
                     <figure class="portfolio-figure">
-                        <img src="{{ '/styles/img/ssm.jpg' | prepend: site.baseurl }}" alt="" width="386px" height="300px">
+                        <img src="{{ '/styles/img/ssm.jpg' | prepend: site.baseurl }}" alt="" width="386px"
+                             height="300px">
                     </figure>
 
                     <div class="portfolio-caption text-center">
